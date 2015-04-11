@@ -7,12 +7,43 @@
 		body {
 			background: #BFA38A;
 			color: white;
+			margin: 0;
 		}
 
 		h1, h3 {
 			color: #F2BA52;
 			text-shadow: 1px 1px 1px #736656;
 		}
+
+		ul#nav {
+			margin: 0;
+			padding: 0;
+		}
+
+		ul#nav li {
+			display: inline-block;	
+			margin-right: 10px;		
+		}
+
+		ul#nav a {
+			background: red;
+			font-size: 18px;
+			padding: 10px;
+			color: white;
+			text-decoration: none;
+
+			transition-property: all;
+			transition-duration: 0.3s;
+			transition-timing-function: ease-in-out;
+
+		}
+
+		ul#nav a:hover {
+			background: blue;
+			font-size: 20px;
+		}
+
+
 	</style>
 </head>
 <body>
