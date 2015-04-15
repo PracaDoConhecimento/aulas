@@ -1,20 +1,79 @@
-#nav {
-	list-style: none;
+body {	
+	background-color: #0013af;
+	color: white;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	color: white;
+}
+
+
+h1 {
+	color:#4169E1;
+	font-weight:lighter;
+}
+
+h1#titulo {
+	text-decoration: underline;
+}
+
+p {
+	color: red;
+	font-size: 18px;
+	color: rgb(238, 130, 238);
+}
+
+p#segundo {
+	color: rgba(238, 130, 238, 0.7);
+}
+
+p#terceiro {
+	color: rgba(238, 130, 238, 0.4);
+}
+
+a.menu {
+	color: green;
+}
+
+a.ativo {
+	font-weight:bolder;
+}
+
+
+ul#nav {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
-#nav li {
+ul#nav li {
 	display: inline-block;
+	margin-right: -5px;
 }
 
-#nav li a {
-	background: blue;
-	padding: 10px;
+ul#nav li a {
 	color: white;
+	background-color: #00BFFF;
+	padding: 10px;
 	text-decoration: none;
+
+	transition-property: all;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
 }
 
-#nav li a:hover {
-	background: red;
+ul#nav li a:hover {
+	background-color: red;
+	font-size: 25px;
+}
+
+
+/* 
+	Formulario
+*/
+.campo {
+	background-color: gray;
+	border-radius: 5px;
 }

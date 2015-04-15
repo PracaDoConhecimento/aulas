@@ -75,7 +75,7 @@ ul#nav li a:hover {
 */
 
 #contato {
-
+	margin: 30px;
 }
 
 #contato .contato_input,
@@ -99,9 +99,10 @@ ul#nav li a:hover {
 	border-radius: 150px;
 	background-color: green;
 	color: white;
-	padding: 8px 10px;
-	height: 53px;
-	margin-left: 250px;
+	padding: 8px 25px;
+	height: 36px;
+	margin-left: 240px;
+	margin-top: 10px;
 
 }
 
